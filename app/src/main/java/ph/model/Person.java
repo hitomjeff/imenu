@@ -18,8 +18,9 @@ import lombok.Setter;
 abstract public class Person {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	protected Long id; 
-	protected String fn, ln;
+	private Long id; 
+	private String fn, ln;
+	private Boolean gender;
 
 
 }

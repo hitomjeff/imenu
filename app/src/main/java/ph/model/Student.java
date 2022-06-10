@@ -10,14 +10,15 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @Entity
-@Data @NoArgsConstructor 
+@Data @NoArgsConstructor @ToString
 public class Student extends Person{
 	private Double gpa;
 	
-	public Student(Long id, String fn, String ln, Double gpa) {
-		super(id, fn, ln);
+	public Student(Long id, String fn, String ln, Boolean gender, Double gpa) {
+		super(id, fn, ln, gender);
 		this.gpa=gpa;
 	}
 }
