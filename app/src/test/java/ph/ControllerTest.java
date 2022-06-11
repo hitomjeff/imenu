@@ -17,6 +17,7 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import ph.ctrl.SchoolController;
@@ -27,6 +28,7 @@ import ph.repo.StudentRepo;
 
 @SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT)
 @ExtendWith(SpringExtension.class)
+//@ActiveProfiles("de")
 public class ControllerTest {
 	
 	static Logger log = LoggerFactory.getLogger(ControllerTest.class);
