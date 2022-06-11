@@ -3,18 +3,14 @@
  */
 package ph;
 
-import javax.sql.DataSource;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Profile;
 
 @SpringBootApplication
 public class Main {
@@ -23,18 +19,7 @@ public class Main {
     public String getGreeting() {
         return "Hello World!";
     }
-    
-    
-    // @Bean
-    // @Profile("dev")
-    DataSource sqlDs() {
-    	return DataSourceBuilder
-    			.create()
-    			.driverClassName(org.h2.Driver.class.getName())
-    			.url("jdbc:h2:mem:school")
-    			.username("sa")
-    			.build();
-    }
+
     
     
     @Value("${vvv}")
