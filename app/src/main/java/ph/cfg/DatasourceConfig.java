@@ -1,5 +1,6 @@
 package ph.cfg;
 
+
 import javax.sql.DataSource;
 
 import org.springframework.boot.jdbc.DataSourceBuilder;
@@ -21,7 +22,4 @@ public class DatasourceConfig {
     			.password("password")
     			.build();
     }
-	
-	
-
 }
