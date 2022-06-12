@@ -1,6 +1,6 @@
 package ph.model.orderServing;
 
-import java.awt.Menu;
+
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,6 +9,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 import lombok.Data;
+import ph.model.menu.Menu;
 
 @Entity
 @Data
