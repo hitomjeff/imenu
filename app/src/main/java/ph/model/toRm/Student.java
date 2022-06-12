@@ -1,4 +1,4 @@
-package ph.model;
+package ph.model.toRm;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

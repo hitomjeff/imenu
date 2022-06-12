@@ -21,8 +21,8 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import ph.ctrl.SchoolController;
-import ph.model.Course;
-import ph.model.Student;
+import ph.model.toRm.Course;
+import ph.model.toRm.Student;
 import ph.repo.CourseRepo;
 import ph.repo.StudentRepo;
 
