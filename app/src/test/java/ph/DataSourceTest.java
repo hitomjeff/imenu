@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.util.Assert;
 
-import ph.model.Student;
+import ph.model.toRm.Student;
 import ph.repo.StudentRepo;
 
 

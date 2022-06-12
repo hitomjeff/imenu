@@ -5,6 +5,8 @@
 .classpath
 
 
+
 # Ignore Gradle build output directory
-build
-bin
+/doc
+/app/build
+/app/bin

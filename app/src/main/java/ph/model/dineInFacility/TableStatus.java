@@ -1,12 +1,16 @@
-package ph.model;
+package ph.model.dineInFacility;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import lombok.Data;
+
 @Entity
-public class Employee {
+@Data
+public class TableStatus {
 	@Id
 	@GeneratedValue
-	private Long id; 
+	private Long id;
+	private String status;
 }

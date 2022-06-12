@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ph.model.Course;
-import ph.model.Student;
+import ph.model.toRm.Course;
+import ph.model.toRm.Student;
 import ph.repo.CourseRepo;
 import ph.repo.StudentRepo;
 
